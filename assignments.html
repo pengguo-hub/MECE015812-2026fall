@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>作业与实验 · 系统建模与仿真</title>
+<meta name="description" content="仿真实验列表：发布时间、截止时间、实时倒计时、自动评测入口。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="assignments">
+
+<header id="site-header" class="site-header"></header>
+
+<main class="page">
+  <section>
+    <div class="sec-head">
+      <span class="num">A</span>
+      <h2>作业与实验</h2>
+      <span class="en">/ Assignments · Auto-Graded</span>
+      <span class="dots">:: :: ::</span>
+    </div>
+    <p style="padding:16px 0 22px;color:var(--navy-62);font-size:14px">
+      代码类作业在评测平台或 GitHub 模板仓库提交，系统即时自动评测，允许多次提交、取最高分。
+      截止前 <b style="color:var(--red)">48 小时</b>倒计时将标红提醒。点击任意一行可展开题目说明与附件。
+    </p>
+    <div id="assign-list"></div>
+  </section>
+</main>
+
+<footer id="site-footer" class="site-footer"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>

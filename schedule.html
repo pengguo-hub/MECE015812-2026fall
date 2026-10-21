@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>教学日历 · 系统建模与仿真</title>
+<meta name="description" content="十六周教学安排，自动高亮当前教学周。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="schedule">
+
+<header id="site-header" class="site-header"></header>
+
+<main class="page">
+  <section>
+    <div class="sec-head">
+      <span class="num">S</span>
+      <h2>教学日历</h2>
+      <span class="en">/ Weekly Syllabus · 16 Weeks</span>
+      <span class="dots">:: :: ::</span>
+    </div>
+    <p style="padding:16px 0 22px;color:var(--navy-62);font-size:14px">
+      每周两次课，单周周四为上机实验。标有<span class="now-tag">本周</span>的行为当前教学周（由开学日期自动推算）。
+      如遇节假日调课，以主页「公告」为准。
+    </p>
+    <div id="schedule-table"></div>
+  </section>
+</main>
+
+<footer id="site-footer" class="site-footer"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
